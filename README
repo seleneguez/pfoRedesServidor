@@ -1,0 +1,23 @@
+# Servidor Flask + SQLite
+
+Este proyecto es una API en Flask con base de datos SQLite. Permite:
+
+- Registrar usuarios (`/registro`)
+- Iniciar sesión (`/login`)
+- Ver tareas en HTML (`/tareas`)
+- Crear nuevas tareas (`/tareas` vía POST)
+
+## 📦 Requisitos
+
+- Python 3.x
+- Pip
+- Virtualenv (opcional, recomendado)
+
+## ⚙️ Instalación
+
+1. Clonar o copiar los archivos en una carpeta.
+2. Crear y activar un entorno virtual (opcional pero recomendable):
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # En Mac/Linux
